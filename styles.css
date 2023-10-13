@@ -1,0 +1,98 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    background-color: #0c344b;
+  }
+ .barra {
+    display: flex;
+    align-items: center; 
+    width: 1200px;
+    height: 145px; 
+    background-color:rgb(26, 239, 221);
+    border-radius:15px;
+    border:solid;  
+ }
+
+ .imagen-logo {
+    width: 200px; 
+    height: auto; 
+    margin-right: 10px; 
+    cursor: pointer;
+ }  
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+   
+  p, input, li {
+    font-family: 'Cambria bold italic';
+    color: #2a2a2a;
+  }
+  li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+  nav{
+    background-color: white;
+    padding: 1%;
+  }
+  
+  nav {
+    height: 50px;
+    background-color: rgb(26, 239, 221);
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+    margin: 0 15px;
+  }
+  
+  nav a {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 2em;
+  }
+  
+  input {
+    font-size: 1.6rem;
+    height: 32px;
+  }
+  
+  input[type="search"] {
+    flex: 3;
+  }
+  
+  input[type="submit"] {
+    flex: 1;
+    margin-left: 1rem;
+    background: #725dbe;
+    border: 0;
+    color: white;
+  }
+  
